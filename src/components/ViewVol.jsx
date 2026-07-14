@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-// import NavBar from "./NavBar";
+import NavBar from "./NavBar";
 
 const ViewVol = () => {
   const [volunteers, setVolunteers] = useState([]);
@@ -18,7 +18,7 @@ const ViewVol = () => {
 
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
 
       <div className="container" style={{ padding: 10, margin: "50px auto" }}>
         <h1 style={{ marginBottom: 30 }}>View Volunteers</h1>
