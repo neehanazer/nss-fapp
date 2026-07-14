@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-// import NavBar from "./NavBar";
+import NavBar from "./NavBar";
 
 const AddVol = () => {
   const [data, setData] = React.useState({
@@ -55,7 +55,7 @@ const AddVol = () => {
 
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
 
       <div className="container" style={{ padding: 10, margin: 50 }}>
         <h2 style={{ marginBottom: 40 }}>Add Volunteer</h2>
